@@ -1,0 +1,12 @@
+# Program to calculate Salary
+
+basic_salary = 25000
+hra = (20 * basic_salary) / 100
+bonus = 5000
+
+total_salary = basic_salary + hra + bonus
+
+print("Basic Salary :", basic_salary)
+print("HRA (20%)    :", hra)
+print("Bonus        :", bonus)
+print("Total Salary :", total_salary)
