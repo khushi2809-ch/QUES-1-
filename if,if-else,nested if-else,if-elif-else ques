@@ -1,0 +1,108 @@
+#ques1 Check whether a number is positive
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Positive number")
+
+#ques2 Check whether a number is even or odd
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+#ques3 Check whether a number is divisible by 5
+num = int(input("Enter a number: "))
+
+if num % 5 == 0:
+    print("Divisible by 5")
+else:
+    print("Not divisible by 5")
+
+#ques4 Largest of Three Numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b:
+    if a > c:
+        print("Largest is", a)
+    else:
+        print("Largest is", c)
+else:
+    if b > c:
+        print("Largest is", b)
+    else:
+        print("Largest is", c)
+
+#ques5 Check Positive, Negative or Zero
+num = int(input("Enter number: "))
+
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive")
+else:
+    print("Negative")
+
+ques6 Check Leap Year (Correct Logic)
+year = int(input("Enter year: "))
+
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap Year")
+        else:
+            print("Not a Leap Year")
+    else:
+        print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+ques7 grade calculator
+marks = int(input("Enter marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+
+ques8 Largest of Three Numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+    print("Largest is", a)
+elif b >= a and b >= c:
+    print("Largest is", b)
+else:
+    print("Largest is", c)
+
+ques9 Check Positive, Negative, or Zero
+num = int(input("Enter number: "))
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+ques10 Check Character Type
+ch = input("Enter a character: ")
+
+if ch.isalpha():
+    print("Alphabet")
+elif ch.isdigit():
+    print("Digit")
+else:
+    print("Special Character")
+
+
